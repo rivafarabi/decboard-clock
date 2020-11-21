@@ -4,4 +4,4 @@ version: 1.0.0
 description: Display clock on Deckboard button
 author: Riva Farabi
 license: MIT
-repository: ""
+repository: "https://github.com/rivafarabi/decboard-clock"
