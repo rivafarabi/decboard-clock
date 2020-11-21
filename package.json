@@ -1,0 +1,16 @@
+{
+    "name": "deckboard-clock",
+    "version": "1.0.0",
+    "description": "Display clock on Deckboard button",
+    "main": "index.js",
+    "scripts": {
+        "bundle": "webpack",
+        "build": "deckboard-kit --build",
+        "install": "deckboard-kit --install"
+    },
+    "author": "Riva Farabi",
+    "license": "MIT",
+    "dependencies": {
+        "babel-helpers": "^6.24.1"
+    }
+}
