@@ -48,7 +48,7 @@ class DeckboardClock {
 	updateClock() {
 		this.setValue({
 			'clock-12h': moment().format('H:mm A'),
-			'clock-24h': moment().format('h:mm')
+			'clock-24h': moment().format('HH:mm')
 		})
 	}
 
