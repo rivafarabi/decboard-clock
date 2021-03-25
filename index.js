@@ -20,7 +20,8 @@ class DeckboardClock {
 						type: 'input:select',
 						items: [
 							{ value: 'clock-12h', label: '12 Hour Format' },
-							{ value: 'clock-24h', label: '24 Hour Format' }
+							{ value: 'clock-24h', label: '24 Hour Format' },
+							{ value: 'date', label: 'Date' }
 						]
 					}
 				]
@@ -48,7 +49,8 @@ class DeckboardClock {
 	updateClock() {
 		this.setValue({
 			'clock-12h': moment().format('h:mm A'),
-			'clock-24h': moment().format('HH:mm')
+			'clock-24h': moment().format('HH:mm'),
+			'date': moment().format('dddd,[\n]DD[\n]MMMM')
 		})
 	}
 
